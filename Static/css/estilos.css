@@ -43,16 +43,19 @@
 /*estilos del header*/
 .u-link{
 	text-decoration: none;
+	list-style: none;
 }
 .Header{
 	background: rgba(0,0,0,.3);
 	width: 100%;
 	height: 5em;
 	position: fixed;
-	vertical-align: top;
+	/*vertical-align: top;*/
+	top: 0;
 }
 .HeaderImage{
-	width: 150px;
+	width: 180px;
+	padding: .2em 0 0 1em;
 }
 .MainMenu{
 	position: absolute;
@@ -74,12 +77,12 @@
 .Landing{
 	background: url(../img/background.jpg);
 	background-size: cover;
-	margin-top: -21px;
-	height: 640px;
+	height: 700px;
 }
 .Landing-description{
 	text-align: center;
-	margin-top: 12em;
+	position: absolute;
+	bottom: 2em;
 }
 .TitleFh{
 	font-size: 2.5em;
@@ -105,4 +108,16 @@
 .LandingLink{
  	color: rgba(255,255,255,.9);
 	text-shadow: 1px 2px 3px #000;
+}
+.Landing-social{
+	margin-top: 2em;
+	list-style: none;
+}
+.LandingList{
+	display: inline-block;
+}
+.Landing-link{
+	color: #fff;
+	font-size: 1.7em;
+	margin-right: 1em;
 }
